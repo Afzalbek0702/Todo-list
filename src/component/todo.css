@@ -1,0 +1,94 @@
+.wrapper{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 50px;
+}
+.conteiner{
+   padding: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 500px;
+   height: 500px;
+   overflow: auto;
+   background-color: #1C1A42;
+}
+.title{
+   color: white;
+   font-size: 48px;
+}
+.inp{
+   width: 270px;
+   height: 30px;
+   padding: 10px;
+   font-size: 22px;
+   background-color: #1C1A42;
+   /* color: #4A4770; */
+   color: white;
+   outline: none;
+   border: 1px solid #835AFD;
+}
+.inputdiv{
+   display: flex;
+   align-items: center;
+}
+.add{
+   width: 130px;
+   height: 53px;
+   font-size: 30px;
+   color: white;
+   border: none;
+   transition: all 0.1s;
+   background-color: #835AFD;
+}
+.add:active{
+   transform: scale(0.98);
+
+}
+.item{
+   width: 400px;
+   height: auto;
+   margin-top: 20px;
+   padding: 11px;
+   font-size: 20px;
+   /* display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   flex-wrap: wrap; */
+   background-color: #835AFD;
+   color: white;
+}
+.delbtn{
+   font-size: 25px;
+   margin-right: 10px;
+   /* margin-right: auto; */
+
+}
+.delbtn:active{
+   transform: scale(0.9);
+}
+.editbtn{
+   font-size:27px;
+}
+.editbtn:active{
+   transform: scale(0.9);
+}
+.btns{
+   display: flex;
+   justify-content: flex-end;
+}
+.disable{
+   display: none;
+}
+.active{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   z-index: 2;
+   backdrop-filter: blur(50px);
+   transform: translate(-37%,-60%);
+}
