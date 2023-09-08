@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
 const Todoupdate = ({ editinp: editInp, active, setActive, value }) => {
 	const [inp, setInp] = useState("");
@@ -14,7 +14,7 @@ const Todoupdate = ({ editinp: editInp, active, setActive, value }) => {
 				defaultValue={value}
 				type="text"
 				className="inp"
-				placeholder="Enter Todo"
+				placeholder="Update Todo"
 				onChange={(e) => setInp(e.target.value)}
 			/>
 			<button onClick={handleSubmit} className="add" type="submit">
@@ -24,4 +24,4 @@ const Todoupdate = ({ editinp: editInp, active, setActive, value }) => {
 	);
 };
 
-export default Todoupdate
+export default Todoupdate;
